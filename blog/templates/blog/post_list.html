@@ -18,7 +18,7 @@
         <title>Blog Doce Lar da Nanda</title>
     </head>
     <body>
-        <div>
+        <!-- <div>
             <h1><a href="/">Blog Doce Lar da Nanda</a></h1>
         </div>
 
@@ -32,6 +32,10 @@
             <p>publicado: 03.11.2018, 16:29</p>
             <h2><a href="">Meu segundo post</a></h2>
             <p>Vamos começar?.</p>
-        </div>
+        </div> -->
+        {% for post in posts %}
+            {{ post }}
+        {% endfor %} 
+
     </body>
 </html>
